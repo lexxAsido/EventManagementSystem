@@ -1,3 +1,4 @@
+// gmail send or Brevo smtp 
 const nodemailer = require("nodemailer");
 
 // Escape user-supplied text before putting it in HTML (prevents HTML injection in emails)
@@ -121,7 +122,7 @@ module.exports = { sendVerificationEmail };
 
 
 
-
+// gmail send only but render blocks on free tier
 
 // const nodemailer = require("nodemailer");
 
